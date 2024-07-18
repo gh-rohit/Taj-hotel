@@ -1,0 +1,263 @@
+@font-face {
+    font-family: taj1 ;
+    src: url(./8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lC2xcZqTFUw.ttf);
+}
+@font-face {
+    font-family: taj2;
+    src: url(./UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfAZ9hjp-Ek-_EeA.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,body {
+height: 100%;
+width:100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+#nav{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: red; */
+
+}
+#left-nav{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+#right-nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#right-nav button{
+    padding: 1vw;
+    background-color: #AD8B3A;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.9vh;
+    font-family: "taj2";
+    text-transform: uppercase;
+}
+#book-now{
+    background-color: #AD8B3A;
+    padding: 2vh 3vh;
+    border-radius: 2px;
+    color: white;
+}
+#nav #white-img{
+    height: 100%;
+    object-fit: cover;
+
+    
+}
+#nav #golden-img{
+    position: absolute;
+    left: 47.85%;
+    opacity: 0;
+    height: 55%;
+    scale: 0;
+  
+
+}
+
+#page1 #video-container{
+    width: 100%;
+    height: 94vh;
+    /* padding: 10vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#video-container video{
+    width: 55%;
+    height: 50vh;
+
+ 
+    object-fit: cover;
+
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    
+
+
+}
+#right-part{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+  
+
+}
+#right-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99;
+
+
+}
+
+#right-part img{
+  height: 100%;
+  width: 100%;
+object-fit: cover;
+}
+#left-part{
+    width: 50vw;
+    height: 100vh;
+ position: relative;
+
+
+}
+#left-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99;
+    color: #AD8B3A;;
+
+}
+
+#text-area{
+   margin-top: 30vh;
+   margin-left: 20vh;
+    width: 40vw;
+    height: 50vh;
+  font-family: taj1;
+    padding: 10px;
+    color: #AD8B3A;
+   border-left: 1px solid #AD8B3A;
+   border-top: 1px solid #AD8B3A;
+   padding: 10vh;
+}
+#text-area> h1{
+    color: #AD8B3A;
+  font-size: 3vw;
+
+}
+#text-upper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #AD8B3A;
+}
+#text-upper>h1{
+    color: #AD8B3A;
+    
+
+}
+#line{
+    width: 70px;
+    height: 0.5px;
+    background-color: #AD8B3A;;
+}
+
+#right-overlay p{
+    font-family: "taj2";
+    font-size: 2.5vh;
+    color: white;
+    position: absolute;
+    left: 1%;
+    top: 30%;
+    width: 85%;
+    padding: 25vh 0vh;
+    padding-right: 5vh;
+    color: #AD8B3A;
+  border-right: 1px solid #AD8B3A;
+    height: 50vh;
+    border-bottom: 1px solid #AD8B3A;
+
+}
+#left-part img{
+    height: 100%;
+    width: 100%;
+  object-fit: cover;
+  }
+  #page2> h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   color: white;
+   transform: translate(-50%,-50%);
+   text-align: center;
+   font-family: "taj1";
+   font-size: 10vh;
+
+  }
+  #page3{
+    width: 100%;
+    min-height: 150vh;
+    padding-top: 5vh;
+   position: relative;
+    background-image: url("https://images.unsplash.com/photo-1679988555665-b1686f1b3eb7?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-position: center;
+     background-size: cover;
+     margin-top: 10vh;
+
+  }
+  .page3-pride{
+    height: fit-content;
+    overflow: hidden;
+    margin-left: 10vh;
+
+  }
+  #page3 h1{
+    font-family: taj2;
+    font-size: 16vw;
+    line-height: 18vw;
+    letter-spacing: -6px;
+    /* mix-blend-mode: difference; */
+    color: #ffffff;
+    font-weight: 400;
+ 
+}
+.page3-pride h1 span{
+    display: inline-block;
+    color: #ffffff;
+}
+#page4{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+  
+  
+  
+
